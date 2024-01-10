@@ -23,7 +23,7 @@ function Body() {
                 
             </Row >
             <Row className="ms-3">
-                <Icons />
+                <Icons align={""} />
             </Row>
             </Col>
             <About />

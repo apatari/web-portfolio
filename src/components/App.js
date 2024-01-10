@@ -6,6 +6,7 @@ import { Button } from "react-bootstrap";
 import Body from "./Body";
 import './body.css'
 import Header from "./Header";
+import Footer from "./Footer";
 
 
 const bgStyle = {
@@ -17,6 +18,7 @@ function App() {
     <div className="App ">
       <Header/>
       <Body />
+      <Footer />
     </div>
   );
 }

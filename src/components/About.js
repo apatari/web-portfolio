@@ -35,7 +35,7 @@ function About() {
                     </Row>
                     <Row>
                         <Col>
-                        <h3 className="text-secondary m-1" >Contact</h3>
+                        <h4 className="text-secondary m-1" >Contact</h4>
                         <div className="fs-5 text-light m-2"  >
 
                             <div>Andy Patari</div>
