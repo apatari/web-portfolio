@@ -6,9 +6,9 @@ import { faLinkedin, faGithub, faHashnode, } from '@fortawesome/free-brands-svg-
 
 function Icons() {
     return (
-        <div>
+        <div  >
             <a href="https://www.linkedin.com/in/andrew-patari/" target="blank">
-                <FontAwesomeIcon  className="m-3 fs-3 text-white" icon={faLinkedin} />
+                <FontAwesomeIcon  className="me-3 my-3 fs-3 text-white" icon={faLinkedin} />
             </a>
             <a href="https://github.com/apatari" target="blank">
                 <FontAwesomeIcon  className="m-3 fs-3 text-white" icon={faGithub} />

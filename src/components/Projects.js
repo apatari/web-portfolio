@@ -1,6 +1,9 @@
 import React from "react";
 import { Carousel,  Row, Col } from "react-bootstrap";
 import CarouselImage from "./CarouselImage";
+import SRSSnew from "../images/SRSSnew.png"
+import NNSSnew from "../images/NNSSnew.png"
+import BBSSnew from "../images/BBSSnew.png"
 
 
 function Projects() {
@@ -11,33 +14,33 @@ function Projects() {
                 <h3>Projects</h3>
                 <p className="fs-3" >Click on any project name to see a video demo with more info and links to GitHub repositories</p>
             </Row>
-            <Row className=" m-4 p-4 text-dark mx-auto" data-bs-theme='dark' >
+            <Row className=" mx-5 px-5 mb-3 text-dark mx-auto" data-bs-theme='dark' >
 
             
-            <Carousel fade>
+            <Carousel >
                 <Carousel.Item  >
-                    <CarouselImage imageSrc={"NNSS.png"}/>
+                    <CarouselImage imageSrc={NNSSnew}/>
                     <Carousel.Caption className="bg-warning  rounded"  >
                     <a href="https://www.youtube.com/watch?v=xzJ9E-R6PK4&t=80s" target="blank" style={{textDecoration: 'none'}} >
-                        <h3 className="text-dark">Nordic Nexus</h3>
+                        <h3 className="text-info"> <strong>Nordic Nexus</strong> </h3>
                     </a>
                     <p className="text-dark">Track weather and conditions at Nordic skiing areas</p>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
-                <CarouselImage imageSrc={"SRSS.png"} />
+                <CarouselImage imageSrc={SRSSnew} />
                     <Carousel.Caption className="bg-success  rounded">
                     <a href="https://www.youtube.com/watch?v=aTaVnL6IR4M" target="blank" style={{textDecoration: 'none'}} >
-                        <h3>Squawk Rack</h3>
+                        <h3 className="text-info" > <strong>Squawk Rack</strong> </h3>
                     </a>
                     <p>Share, rate, and comment on resistance  workouts</p>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
-                <CarouselImage imageSrc={"BBSS.png"} />
+                <CarouselImage imageSrc={BBSSnew} />
                     <Carousel.Caption className="bg-secondary  rounded">
                     <a href="https://www.youtube.com/watch?v=R1lHVVAi3uI&t=44s" target="blank" style={{textDecoration: 'none'}} >
-                        <h3>Disc Golf Bag Builder</h3>
+                        <h3 className="text-info" > <strong>Disc Golf Bag Builder</strong> </h3>
                     </a>
                     <p>
                         Select and compare discs ahead of your next round

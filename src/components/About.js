@@ -2,6 +2,7 @@ import React from "react";
 import { Image, Row, Col, Button } from "react-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
  import { faDownload } from "@fortawesome/free-solid-svg-icons";
+ import avatar from "../images/avatar.png"
 
 
  
@@ -15,7 +16,7 @@ function About() {
 
             <Row className="m-3 p-4"  >
                 <Col lg={3} >
-                    <Image src="avatar.png" alt="picture of me" className="m-2 ms-5" roundedCircle style={{width: '65%'}} />
+                    <Image src={avatar} alt="picture of me" className="m-2 ms-5" roundedCircle style={{width: '65%'}} />
                 </Col>
                 <Col lg={7} >
                     <Row>
@@ -43,7 +44,9 @@ function About() {
                         </div>
                         </Col>
                         <Col>
+                            <a href="https://docs.google.com/document/d/1J49rVSlE2Yf9W-DRMMX8jq6yXgtcr05vsmdguRUZan4/export?format=pdf" >
                             <Button className="mt-4 btn-secondary" > <FontAwesomeIcon className="mx-2" icon={faDownload} /> Download Resume</Button>
+                        </a>
                         </Col>
                         
                     </Row>

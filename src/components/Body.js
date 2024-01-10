@@ -14,15 +14,15 @@ function Body() {
             <Col className="ms-3">
                 
             
-            <Row className="pt-3 " >
+            <Row className="pt-3 ms-3 " >
                 <h1 className="display-2" >Andy Patari</h1>
                 
             </Row>
-            <Row >
-                <h3 className="text-secondary " >A software engineer from southern Vermont</h3>
+            <Row className="ms-3">
+                <h3 className="text-secondary  " >A software engineer from southern Vermont</h3>
                 
             </Row >
-            <Row >
+            <Row className="ms-3">
                 <Icons />
             </Row>
             </Col>
