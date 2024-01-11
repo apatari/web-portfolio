@@ -14,7 +14,7 @@ function Projects() {
                 <h3>Projects</h3>
                 <p className="fs-3" >Click on any project name to see a video demo with more info and links to GitHub repositories</p>
             </Row>
-            <Row className=" mx-5 px-5 mb-3 text-dark mx-auto" data-bs-theme='dark' >
+            <Row className="mb-3 text-dark" data-bs-theme='dark' >
 
             
             <Carousel >
