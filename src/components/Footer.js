@@ -12,7 +12,7 @@ function Footer() {
                     
                 </Row>
                 <Row className="mx-auto text-light justify-content-center">
-                    Designed and built by Andy Patari - 2024
+                    Built by Andy Patari - 2024
                 </Row>
                 
 

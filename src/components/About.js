@@ -3,6 +3,7 @@ import { Image, Row, Col, Button } from "react-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
  import { faDownload } from "@fortawesome/free-solid-svg-icons";
  import avatar from "../images/avatar.png"
+ import avatarNew from "../images/avatarNew.png"
 
 
  
@@ -16,7 +17,7 @@ function About() {
 
             <Row className="m-3 p-4"  >
                 <Col lg={3} >
-                    <Image src={avatar} alt="picture of me" className="m-2 ms-5" roundedCircle style={{width: '65%'}} />
+                    <Image src={avatarNew} alt="picture of me" className="m-3 ms-5" roundedCircle style={{width: '75%'}} />
                 </Col>
                 <Col lg={7} >
                     <Row>
