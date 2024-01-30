@@ -19,9 +19,9 @@ function BlogCard({ blog }) {
                         <Card.Title >{blog.title}</Card.Title>
                     </a>
 
-                    <Card.Text>
+                    {/* <Card.Text>
                         {blog.brief}
-                    </Card.Text>
+                    </Card.Text> */}
                 </div> 
             </Card.Body>
             
