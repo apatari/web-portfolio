@@ -12,12 +12,12 @@ function Projects() {
             <Col className="" >
             <Row className="ms-2 ps-3 m-2 px-4" >
                 <h3 className="ps-5" >Projects</h3>
-                <p className="fs-3 ps-5 " >Click on any project name to see a video demo with more info and links to GitHub repositories</p>
+                <p className="fs-3 ps-5 " >Click on any project name or image to see a video demo</p>
             </Row>
             <Row className="mb-3 text-dark" data-bs-theme='dark' >
 
             
-            <Carousel >
+            {/* <Carousel >
                 <Carousel.Item  >
                     <CarouselImage imageSrc={NNSSnew}/>
                     <Carousel.Caption className="bg-warning  rounded"  >
@@ -47,7 +47,7 @@ function Projects() {
                     </p>
                     </Carousel.Caption>
                 </Carousel.Item>
-            </Carousel>
+            </Carousel> */}
             </Row>
             </Col>
             
