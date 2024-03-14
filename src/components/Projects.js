@@ -1,5 +1,5 @@
 import React from "react";
-import { Carousel,  Row, Col } from "react-bootstrap";
+import { Carousel,  Row, Col, Card } from "react-bootstrap";
 import CarouselImage from "./CarouselImage";
 import SRSSnew from "../images/SRSSnew.png"
 import NNSSnew from "../images/NNSSnew.png"
@@ -12,10 +12,21 @@ function Projects() {
             <Col className="" >
             <Row className="ms-2 ps-3 m-2 px-4" >
                 <h3 className="ps-5" >Projects</h3>
-                <p className="fs-3 ps-5 " >Click on any project name or image to see a video demo</p>
+                <p className="fs-3 ps-5 " >Click on any project image to see a video demo</p>
             </Row>
             <Row className="mb-3 text-dark" data-bs-theme='dark' >
-
+            <Card style={{width: '28rem'}} className="m-3 p-2 rounded" >
+                <a href="https://www.youtube.com/watch?v=xzJ9E-R6PK4&t=96s" target="blank" > <Card.Img variant="top" src={NNSSnew} /></a>
+                <Card.Body>
+                    <Card.Title>Nordic Nexus</Card.Title>
+                  
+                    <Card.Text className="fs-4" >
+                        Plan your next Nordic Skiing adventure by comparing weather conditions, trail reports, and drive times at multiple ski centers.
+                    </Card.Text>
+                    <a href="https://github.com/apatari/Nordic-Nexus" className="fs-3" > GitHub </a>
+                    
+                </Card.Body>
+            </Card>
             
             {/* <Carousel >
                 <Carousel.Item  >
