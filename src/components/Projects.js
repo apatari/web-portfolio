@@ -24,9 +24,9 @@ function Projects() {
                     <Card.Text className="fs-4" >
                         Plan your next Nordic Skiing adventure by comparing weather conditions, trail reports, and drive times at multiple ski centers.
                     </Card.Text>
-                    <a href="https://github.com/apatari/Nordic-Nexus" className="fs-3" target="blank" > GitHub </a>
                     
                 </Card.Body>
+                    <a href="https://github.com/apatari/Nordic-Nexus" className="fs-3 m-3" target="blank" > GitHub </a>
             </Card>
 
             <Card style={{width: '28rem'}} className="m-2 p-2 rounded" >
@@ -37,22 +37,22 @@ function Projects() {
                     <Card.Text className="fs-4" >
                         A website to show off the weavings that my mom has for sale. Features include file uploads, form-generated emails, and image storage. 
                     </Card.Text>
-                    <a href="https://github.com/apatari/art-store" className="fs-3" target="blank" > GitHub </a>
                     
                 </Card.Body>
+                <a href="https://github.com/apatari/art-store" className="fs-3 m-3" target="blank" > GitHub </a>
             </Card>
 
             <Card style={{width: '28rem'}} className="m-2 p-2 rounded" >
                 <a href="https://www.youtube.com/watch?v=aTaVnL6IR4M" target="blank" > <Card.Img variant="top" src={SRSSnew} /></a>
-                <Card.Body>
+                <Card.Body >
                     <Card.Title>Squawk Rack</Card.Title>
                   
                     <Card.Text className="fs-4" >
                         Create, share, review, and comment on resistance training workout plans. 
                     </Card.Text>
-                    <a href="https://github.com/apatari/squawk-rack" className="fs-3" target="blank" > GitHub </a>
                     
                 </Card.Body>
+                <a  href="https://github.com/apatari/squawk-rack" className="fs-3  m-3" target="blank" > GitHub </a>
             </Card>
             
             {/* <Carousel >
