@@ -38,21 +38,21 @@ function Blog() {
 // }, [])
 
     const blog1 = {
-        "title": "Avoid Excessive API Calls with localStorage",
-        "coverImage": "https://cdn.hashnode.com/res/hashnode/image/upload/v1703086800190/383b31dc-a27a-495f-a088-f4d92f339f7b.jpeg?w=1600&h=840&fit=crop&crop=entropy&auto=compress,format&format=webp",
-
+        "title": "I'm Having a Blast with Python's Facial Recognition Library",
+        "coverImage": "https://cdn.hashnode.com/res/hashnode/image/upload/v1710347509238/1b0a9d3b-f5ae-418a-b758-c8ebacb48013.png?w=1600&h=840&fit=crop&crop=entropy&auto=compress,format&format=webp",
+        "slug": "im-having-a-blast-with-pythons-facial-recognition-library"
     }
 
     const blog2 = {
-        "title": "Decorating Functions for Fun and Profit",
-        "coverImage": "https://cdn.hashnode.com/res/hashnode/image/upload/v1704810982270/fc1a9e0c-1b2e-47a2-a420-263e801ce6db.png?w=1600&h=840&fit=crop&crop=entropy&auto=compress,format&format=webp",
-
+        "title": "File Uploads Made Easy with React and Flask",
+        "coverImage": "https://cdn.hashnode.com/res/hashnode/image/upload/v1707752966261/814ec9d0-8ba9-4c1d-a895-f39156b97b99.jpeg?w=1600&h=840&fit=crop&crop=entropy&auto=compress,format&format=webp",
+        "slug": "file-uploads-made-easy-with-react-and-flask"
     }
 
     const blog3 = {
         "title": "Debugging Detective: The Switcheroo Sort",
         "coverImage": "https://cdn.hashnode.com/res/hashnode/image/upload/v1704811287306/1853cdf8-e476-47f1-909c-3debb6a0401a.jpeg?w=1600&h=840&fit=crop&crop=entropy&auto=compress,format&format=webp",
-
+        "slug": "debugging-detective-the-switcheroo-sort"
     }
 
     return (
