@@ -4,11 +4,12 @@ import CarouselImage from "./CarouselImage";
 import SRSSnew from "../images/SRSSnew.png"
 import NNSSnew from "../images/NNSSnew.png"
 import BBSSnew from "../images/BBSSnew.png"
+import Art from "../images/Art.png"
 
 
 function Projects() {
     return (
-        <div className="  py-2 mt-2 d-flex" id="projects" style={{scrollMarginTop: "90px"}} >
+        <div className="  p-2 mt-2 d-flex" id="projects"  >
             <Col className="" >
             <Row className="ms-2 ps-3 m-2 px-4" >
                 <h3 className="ps-5" >Projects</h3>
@@ -23,7 +24,20 @@ function Projects() {
                     <Card.Text className="fs-4" >
                         Plan your next Nordic Skiing adventure by comparing weather conditions, trail reports, and drive times at multiple ski centers.
                     </Card.Text>
-                    <a href="https://github.com/apatari/Nordic-Nexus" className="fs-3" > GitHub </a>
+                    <a href="https://github.com/apatari/Nordic-Nexus" className="fs-3" target="blank" > GitHub </a>
+                    
+                </Card.Body>
+            </Card>
+
+            <Card style={{width: '28rem'}} className="m-3 p-2 rounded" >
+                <a href="https://www.youtube.com/watch?v=RyR3Dh2zjNc" target="blank" > <Card.Img variant="top" src={Art} /></a>
+                <Card.Body>
+                    <Card.Title>Art Showcase</Card.Title>
+                  
+                    <Card.Text className="fs-4" >
+                        A website to show off the weavings that my mom has for sale. Features include file uploads, form-generated emails, and image storage. 
+                    </Card.Text>
+                    <a href="https://github.com/apatari/art-store" className="fs-3" target="blank" > GitHub </a>
                     
                 </Card.Body>
             </Card>
