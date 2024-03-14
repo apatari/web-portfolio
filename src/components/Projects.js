@@ -48,7 +48,7 @@ function Projects() {
                     <Card.Title>Squawk Rack</Card.Title>
                   
                     <Card.Text className="fs-4" >
-                        Create, share, review, and comment on resistance training workout plans. 
+                        Create, share, review, and comment on resistance training workout plans.
                     </Card.Text>
                     
                 </Card.Body>
