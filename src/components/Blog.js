@@ -59,7 +59,7 @@ function Blog() {
         <div id="blog" style={{scrollMarginTop: "70px"}} className="py-3 px-4"  >
             <h3 className="ms-5 mt-4" >
                 My Blog - 
-                <a href="https://dundermethodpaperco.hashnode.dev/" >Dunder Method Paper Company</a> 
+                <a href="https://dundermethodpaperco.hashnode.dev/" target="blank" >Dunder Method Paper Company</a> 
             </h3>
             <p className="ms-5 fs-3" >Coding adventures, beginner tutorials, and at least one reference to "The Office" in every post!</p>
             <div className="d-flex flex-wrap m-4 ">
