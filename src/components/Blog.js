@@ -1,41 +1,9 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import BlogCard from "./BlogCard";
 
 
 
 function Blog() {
-
-// const [blogs, setBlogs] = useState([])
-
-// async function gql() {
-//     const response = await fetch('https://api.hashnode.com/', {
-//         method: 'POST',
-//         headers: {
-//             'Content-Type': 'application/json',
-//         },
-//         body: JSON.stringify({ 
-//             query: `
-//             query {
-//                 user(username: "andypatari") {
-//                   publication {
-//                     posts(page: 0) {
-//                      slug
-//                      title
-//                      brief
-//                      coverImage
-//                     }
-//                   }
-//                 }
-//               }
-//             ` }),
-//     });
-
-//     return response.json();
-
-// }
-// useEffect(() => {
-//     gql().then(res => setBlogs(res.data.user.publication.posts) )
-// }, [])
 
     const blog1 = {
         "title": "I'm Having a Blast with Python's Facial Recognition Library",

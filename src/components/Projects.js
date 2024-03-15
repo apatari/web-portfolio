@@ -1,9 +1,9 @@
 import React from "react";
-import { Carousel,  Row, Col, Card } from "react-bootstrap";
-import CarouselImage from "./CarouselImage";
+import { Row, Col, Card } from "react-bootstrap";
+
 import SRSSnew from "../images/SRSSnew.png"
 import NNSSnew from "../images/NNSSnew.png"
-import BBSSnew from "../images/BBSSnew.png"
+
 import Art from "../images/Art.png"
 
 
