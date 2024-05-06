@@ -31,7 +31,7 @@ function Projects() {
             </Card>
 
             <Card style={{width: '28rem'}} className="m-2  p-2 rounded" >
-                <a href="https://www.youtube.com/watch?v=AjH7jcbXxEk&t=9s" target="blank" > <Card.Img variant="top" src={ImageRec} /></a>
+                <a href="https://www.youtube.com/watch?v=AjH7jcbXxEk" target="blank" > <Card.Img variant="top" src={ImageRec} /></a>
                 <Card.Body>
                     <Card.Title>Image Recognition</Card.Title>
                   
