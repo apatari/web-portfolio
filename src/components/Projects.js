@@ -3,6 +3,7 @@ import { Row, Col, Card } from "react-bootstrap";
 
 import SRSSnew from "../images/SRSSnew.png"
 import NNSSnew from "../images/NNSSnew.png"
+import ImageRec from "../images/ImageRec.png"
 
 import Art from "../images/Art.png"
 
@@ -27,6 +28,19 @@ function Projects() {
                     
                 </Card.Body>
                     <a href="https://github.com/apatari/Nordic-Nexus" className="fs-3 m-3" target="blank" > GitHub </a>
+            </Card>
+
+            <Card style={{width: '28rem'}} className="m-2  p-2 rounded" >
+                <a href="https://www.youtube.com/watch?v=AjH7jcbXxEk&t=9s" target="blank" > <Card.Img variant="top" src={ImageRec} /></a>
+                <Card.Body>
+                    <Card.Title>Image Recognition</Card.Title>
+                  
+                    <Card.Text className="fs-4" >
+                        Use Python's Face Recognition library to store and identify known images via user supplied image URLs.
+                    </Card.Text>
+                    
+                </Card.Body>
+                    <a href="https://github.com/apatari/Image-Recognition" className="fs-3 m-3" target="blank" > GitHub </a>
             </Card>
 
             <Card style={{width: '28rem'}} className="m-2 p-2 rounded" >
