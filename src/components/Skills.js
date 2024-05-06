@@ -7,6 +7,7 @@ import js from "../images/js.png"
 import postgresql from "../images/postgresql.png"
 import python from "../images/python.jpeg"
 import react from "../images/react.png"
+import mongo from "../images/mongo.png"
 
 function Skills() {
     return (
@@ -29,6 +30,14 @@ function Skills() {
                 <Card.Img variant="top" src={postgresql} />
                 <Card.Body className="d-flex">
                     <Card.Title className="fs-6 mt-auto mx-auto" >PostgreSQL</Card.Title>
+                    
+                </Card.Body>
+            </Card>
+
+            <Card style={{ width: '9rem', border:'none' }}className="m-3" >
+                <Card.Img variant="top" src={mongo} />
+                <Card.Body className="d-flex">
+                    <Card.Title className="fs-6 mt-auto mx-auto" >MongoDB</Card.Title>
                     
                 </Card.Body>
             </Card>
